@@ -1,6 +1,6 @@
 # Start from golang base image
 FROM golang:alpine as builder
-
+RUN apk add build-base
 # ENV GO111MODULE=on
 
 # ADD maintainer info
