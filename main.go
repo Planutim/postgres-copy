@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/planutim/postgres-copy/api"
 
 func main() {
-	fmt.Println("hi man")
+	api.Run()
 }

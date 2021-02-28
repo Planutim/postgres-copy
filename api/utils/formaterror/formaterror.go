@@ -13,7 +13,7 @@ func FormatError(err string) error {
 		return errors.New("Email Already Taken")
 	}
 
-	if strings.Contains(err, "email") {
+	if strings.Contains(err, "title") {
 		return errors.New("Title Already Taken")
 	}
 	if strings.Contains(err, "hashedPassword") {
